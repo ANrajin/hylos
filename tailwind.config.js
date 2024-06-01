@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,ts}"],
+  darkMode: 'selector',
+  content: [
+    './node_modules/preline/preline.js',
+    "./src/**/*.{html,ts}"
+  ],
   theme: {
     extend: {
       container: {
@@ -18,6 +22,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('preline/plugin')
+  ],
 };
 

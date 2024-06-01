@@ -28,7 +28,9 @@
               "src/styles.css",
               "./node_modules/notyf/notyf.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/preline/preline.js"
+            ]
           },
           "configurations": {
             "production": {
