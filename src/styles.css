@@ -120,7 +120,7 @@
 
   /* Card */
   .card {
-    @apply py-2 px-4 mb-4 h-full bg-white rounded-xl shadow-md shadow-gray-200;
+    @apply bg-white shadow-sm rounded-xl p-4 md:p-5 dark:bg-slate-900 dark:border dark:border-slate-700 dark:text-neutral-400;
   }
 
   .card-title {

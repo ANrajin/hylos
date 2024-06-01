@@ -1,14 +1,10 @@
 /* Sidebar */
-.sidebar {
-    @apply sticky top-0 px-3 bg-slate-900 min-h-screen pt-5 transition-all duration-300
-}
-
 .sidebar[aria-expanded=true] {
     @apply w-60
 }
 
 .sidebar[aria-expanded=false] {
-    @apply w-0 p-0 overflow-hidden
+    @apply w-0 p-0 overflow-hidden border-0
 }
 
 .brand-wrapper {
